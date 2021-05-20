@@ -2,11 +2,11 @@ package sort;
 
 import java.util.Arrays;
 
+/**
+ * 选择排序
+ */
 public class SelectSort {
 
-    /**
-     * 选择排序
-     */
     public static void main(String[] args) {
         int[] arr = new int[]{4, 3, 2, 6, 1};
         System.out.println(Arrays.toString(arr));

@@ -11,6 +11,7 @@ func main() {
 	fmt.Println(result)
 }
 
+//选择排序
 func selectSort(arr []int) []int {
 	if len(arr) < 2 {
 		return arr

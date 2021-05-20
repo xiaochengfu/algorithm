@@ -5,6 +5,11 @@ print_r($array);
 $result = selectSort($array);
 print_r($result);
 
+/**
+ * 选择排序
+ * @param array $array
+ * @return array
+ */
 function selectSort(array $array)
 {
     $length = count($array);
